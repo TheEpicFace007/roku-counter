@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+<!--TODO: Fix les point dans le boutons -->
+
+<component name="MainScene" extends="Scene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<!-- importing main handler -->
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+	<interface>
+		<field id="count" type="integer"  value="0" alwaysNotify="true"/>
+	</interface>
+	<children>
+		<Button text="click count: 0" id="counter" showFocusFootprint="true" 
+		focusable="true" />
+	</children>
+</component>
